@@ -1,1 +1,27 @@
 //
+
+.comics-list{
+    display: flex;
+    flex-wrap: wrap;
+
+    .comic{
+        margin: 20px;
+        width: calc((100% / 4) - 40px);
+        border: 2px solid grey;
+          
+        a{
+            text-decoration: none;
+            color: black;
+            
+            .poster{
+                text-align: center;
+            }
+        }
+        
+    }
+
+}
+
+
+
+

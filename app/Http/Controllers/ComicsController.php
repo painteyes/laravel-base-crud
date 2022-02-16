@@ -48,6 +48,7 @@ class ComicsController extends Controller
     public function show($id)
     {
         //
+        dd('sono il comic con id ' . $id);
     }
 
     /**
