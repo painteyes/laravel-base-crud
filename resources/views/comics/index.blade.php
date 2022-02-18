@@ -6,15 +6,13 @@ Comics
 
 @section('main_content')
 
-    {{-- adding style with bootstrap --}}
-
     <div class="comics-list">
 
         @foreach ($comics as $comic)
 
-            <a class='content' href="{{route('comics.show', ['comic' => $comic->id])}}">
+            <div class="comic">
 
-                <div class="comic">
+                <a class='content' href="{{route('comics.show', ['comic' => $comic->id])}}">
 
                     <div class="card" style="width: 18rem;">
 
@@ -44,8 +42,10 @@ Comics
                             
                         </div>
                     </div>
-                </div> 
-            </a>
+                </a>
+
+            </div> 
+                
 
         @endforeach
 

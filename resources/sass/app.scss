@@ -36,6 +36,11 @@ section{
         .card{
             height: 650px;
         }
+
+        a{
+            display: block;
+            // height: 100%;
+        }
           
         .content{
             text-decoration: none;
@@ -56,7 +61,7 @@ section{
 }
 
 .jumbotron{
-    height: 500px;
+    height: 700px;
     background-image: url('../img/jumbotron.jpg');
     background-position: center;
 }

@@ -11275,6 +11275,9 @@ section button {
 .comics-list .comic .card {
   height: 650px;
 }
+.comics-list .comic a {
+  display: block;
+}
 .comics-list .comic .content {
   text-decoration: none;
   color: black;
@@ -11288,7 +11291,7 @@ section button {
 }
 
 .jumbotron {
-  height: 500px;
+  height: 700px;
   background-image: url("../img/jumbotron.jpg");
   background-position: center;
 }
