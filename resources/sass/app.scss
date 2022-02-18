@@ -1,26 +1,67 @@
 //
 
-.comics-list{
+@import '~bootstrap/scss/bootstrap';
+
+img{
+    max-width: 100%;
+}
+
+form img{
+    width: 200px;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+section{
+    margin: 30px 0;
+
+    .form-group{
+        margin: 15px 0;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+}
+
+.comics-list{    
     display: flex;
     flex-wrap: wrap;
 
     .comic{
         margin: 20px;
-        width: calc((100% / 4) - 40px);
-        border: 2px solid grey;
+
+        .card{
+            height: 650px;
+        }
           
-        a{
+        .content{
             text-decoration: none;
             color: black;
             
             .poster{
                 text-align: center;
+
+                img{
+                    width: 100%;
+                    margin-bottom: 15px;
+                }
             }
         }
         
     }
 
 }
+
+.jumbotron{
+    height: 500px;
+    background-image: url('../img/jumbotron.jpg');
+    background-position: center;
+}
+
+
 
 
 
